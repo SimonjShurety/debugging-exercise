@@ -1,0 +1,23 @@
+*/ {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/html/,
+/body/ {
+  height: 100%;
+  width: 100%;
+}
+
+/body/ {
+  display: flex;
+
+  /* IT WONT CENTER!!!!!!!!!!!!!!!!! 😭😭😭😭😭😭😭 */
+  align-content: center;
+  justify-items: center;
+}
+
+/.hidden/ {
+  display: none !important;
+}

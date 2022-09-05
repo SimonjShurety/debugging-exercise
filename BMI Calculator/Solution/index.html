@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI Calculator</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class=".container">
+
+    <button id="metric-btn">Metric</button>
+    <button id="imperial-btn">Imperial</button>
+
+    <!-- Metric System -->
+    <div class="calculator-div" id="metric-div">
+      <h2>Input height (Meters)</h2>
+      <input id="met-meters" type="number" />
+      <br />
+      <br />
+      <h2>Input weight (Kilograms)</h2>
+      <input id="met-kg" type="number" />
+      <br />
+      <br />
+      <button class="met-convert">Convert!</button>
+    </div>
+
+    <!-- Imperial System -->
+    <div class="calculator-div hidden" id="imperial-div">
+      <h2>Input height (Decimal Feet)</h2>
+      <input id="imp-ft" type="number" />
+      <br />
+      <br />
+      <h2>Weight (Pounds)</h2>
+      <input id="imp-lbs" type="number" />
+      <br />
+      <br />
+      <button class="imp-convert">Convert!</button>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <h1 id="output-label"></h1>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
